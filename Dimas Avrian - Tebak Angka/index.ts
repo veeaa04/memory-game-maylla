@@ -1,8 +1,8 @@
-let chances = 3;
-const randomNumber = Math.floor(Math.random() * 10);
+let chances: number = 3;
+const randomNumber: number = Math.floor(Math.random() * 10);
 
 while (chances > 0) {
-  const tebakanUser = Number(prompt(`Masukkan Nomor Tebakanmu (Peluang: ${chances}) >`));
+  const tebakanUser: number = Number(prompt(`Masukkan Nomor Tebakanmu (Peluang: ${chances}) >`));
 
   if (tebakanUser < randomNumber) {
     console.log("Nomormu Terlalu Kecil");
