@@ -1,0 +1,62 @@
+:root {
+    box-sizing: border-box;
+}
+
+html, body * {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(224, 225, 239);
+}
+
+#app {
+    height: 100vh;
+}
+
+.summary {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    border: 3px solid rgb(142, 142, 219);
+    width: 400px;
+    height: 400px;
+    text-align: center;
+}
+
+.games {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.option {
+    width: 30%;
+    margin: 10px 15px;
+    padding: 25px;
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(144, 144, 243);
+}
+
+.option:hover {
+    cursor: pointer;
+    background-color: rgb(106, 106, 232);
+    transform: scale(110%);
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+    -webkit-transform: scale(110%);
+    -moz-transform: scale(110%);
+    -ms-transform: scale(110%);
+    -o-transform: scale(110%);
+    -webkit-transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+    -moz-transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+    -ms-transition: cubic-bezier(0.215, 0.620, 0.355, 1);
+    -o-transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+@media screen and (min-width: 500px) {
+    html, body {
+        background-color: rgb(224, 225, 239);
+    }
+}
