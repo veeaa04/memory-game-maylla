@@ -1,0 +1,90 @@
+:root {
+    box-sizing: border-box;
+}
+
+html, body, * {
+    margin: 0;
+    padding: 0;
+}
+
+.BANTENG {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    background-color: darkred
+}
+
+.judul {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    background-color: darkred
+    
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    background-color: darkred;
+
+    
+}
+
+#app {
+    background-color: black;
+    height: 100vh;
+}
+
+.summary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    border: 3px solid white;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    background-color: darkred;
+}
+
+.line {
+    border-bottom: 1px solid #888;
+  }
+
+.akatsuki {
+    display: block;
+    justify-content: right;
+    position: absolute;
+    background-color: darkred;
+    
+}
+
+.games {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkred;
+}
+
+.option{   
+    width: 30%;
+    margin: 10px 15px;
+    padding: 25px;
+    background-color: red;
+    text-align: center;
+    font-size: 30px;
+}
+    
+.option:hover{
+    cursor: pointer;
+    transform: scale(110%);
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+    background-color: brown;
+   
+}
+    
+
+
+.title {text-align: center;}
